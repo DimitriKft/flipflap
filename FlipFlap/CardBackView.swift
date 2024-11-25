@@ -14,13 +14,10 @@ struct CardBackView: View {
 
     var body: some View {
         ZStack {
-            // Fond de la carte
             RoundedRectangle(cornerRadius: 20)
                 .fill(Color.red.opacity(0.6))
                 .frame(width: width, height: height)
                 .shadow(color: .gray.opacity(0.4), radius: 5, x: 0, y: 0)
-            
-            // Bordure
             RoundedRectangle(cornerRadius: 20)
                 .stroke(Color.black, lineWidth: 3)
                 .frame(width: width, height: height)

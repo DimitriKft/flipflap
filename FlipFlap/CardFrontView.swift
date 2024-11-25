@@ -10,7 +10,6 @@ import SwiftUI
 struct CardFrontView: View {
     var body: some View {
         ZStack {
-            // Fond de la carte
             RoundedRectangle(cornerRadius: 10)
                 .fill(Color.white)
                 .frame(width: 200, height: 300)
